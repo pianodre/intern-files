@@ -1,0 +1,21 @@
+SERVER COMMANDS
+
+    Start:
+        python -m http.server 8000
+
+    End: 
+        lsof -i :8000
+        to see Python3  1234  yourname  ...  TCP *:8000 (LISTEN)
+        kill 1234
+
+HIDE FILES
+    chflags hidden put/file/path/name/here
+    Cmd+Shift+. Show hidden files
+
+GIT - Add Files
+    git add .
+    git commit -m ""
+    git push origin main
+
+GIT - Pull Files from git
+    git pull origin main
