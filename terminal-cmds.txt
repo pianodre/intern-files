@@ -13,8 +13,8 @@ HIDE FILES
     Cmd+Shift+. Show hidden files
 
 GIT - Add Files
-    git add .
-    git commit -m ""
+    git add path/to/your/file
+    git commit -m "Put What You Edited Here"
     git push origin main
 
 GIT - Pull Files from git
