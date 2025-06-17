@@ -2,20 +2,32 @@ SERVER COMMANDS
 
     Start:
         python -m http.server 8000
+        
+    Access: 
+        localhost:8000
 
     End: 
         lsof -i :8000
         to see Python3  1234  yourname  ...  TCP *:8000 (LISTEN)
         kill 1234
 
-HIDE FILES
+MAC HIDE FILES
     chflags hidden put/file/path/name/here
     Cmd+Shift+. Show hidden files
 
-GIT - Add Files
-    git add path/to/your/file
-    git commit -m "Put What You Edited Here"
-    git push origin main
+GIT - Clone Repo
+    cd Desktop
+    git clone https://github.com/username/repo-name.git
+    cd repo-name
+    git remote -v
+    git status
 
 GIT - Pull Files from git
+    git status
     git pull origin main
+
+
+GIT - Add Files
+    git add . (uploads altered files)
+    git commit -m "Put What You Edited Here"
+    git push origin main
