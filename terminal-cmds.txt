@@ -16,7 +16,7 @@ MAC HIDE FILES
     Cmd+Shift+. Show hidden files
 
 GIT - Clone Repo
-    cd Desktop
+    cd Desktop (Or relevent directory)
     git clone https://github.com/pianodre/intern-files.git
     cd repo-name
     git remote -v
