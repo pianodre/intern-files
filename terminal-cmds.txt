@@ -23,8 +23,8 @@ GIT - Clone Repo
     git status
 
 GIT - Pull Files from git
-    git status
     git pull origin main
+    git status
 
 
 GIT - Add Files
