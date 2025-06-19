@@ -17,7 +17,7 @@ MAC HIDE FILES
 
 GIT - Clone Repo
     cd Desktop
-    git clone https://github.com/username/repo-name.git
+    git clone https://github.com/pianodre/intern-files.git
     cd repo-name
     git remote -v
     git status
